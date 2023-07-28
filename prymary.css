@@ -1,0 +1,126 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #2196F3;
+    padding: 1rem;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #1976D2;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+    color: #fff;
+    background: url('https://github.com/LunaSolutionsLtda/Lunaarchive/blob/main/PhotoRoom-20230728_135917.png?raw=true') center/cover no-repeat; /* Replace 'path/to/hero-image.jpg' with your hero image URL */
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #1976D2;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Services section styles */
+.services {
+    padding: 4rem 0;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.service-item {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* About section styles */
+.about {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact a {
+    color: #1976D2;
+    text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: #2196F3;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
